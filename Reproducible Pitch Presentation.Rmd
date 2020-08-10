@@ -1,0 +1,32 @@
+---
+title: "Week 4 Assignment - Reproducible Pitch Presentation"
+author: "Ahmed Awad"
+date: "10/08/2020"
+output: ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Coursera Reproducible Pitch
+
+This is a task for the data science coursera course about developing data products for week 4. As part of this, I have created a shiny app and deployed it on the shiny server. The link is https://innovator.shinyapps.io/Cars/. The code can be found at https://github.com/AhmedAwadAwwad/Shiny_App_-_Reproducible_Pitch.
+
+## Overview
+
+The shiny app plots graph against miles per gallon (mpg) for different variables from the mtcars dataset.
+
+```{r}
+head(mtcars)
+```
+
+
+## Plot Between Speed and Distance
+
+```{r cars, message=FALSE, warning=FALSE}
+plot(cars)
+```
+
+
+## Thanks
